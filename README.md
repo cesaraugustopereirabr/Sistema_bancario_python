@@ -1,17 +1,13 @@
-# Sistema_bancario_python
-Sistema Bancário em Python Projeto que implementa as operações essenciais de um sistema bancário: depósito, saque e extrato. Desenvolvido para simular um banco com foco em monetização das operações, permite praticar programação Python criando uma solução prática e funcional para gestão de contas.
-✅ Funcionalidades incluídas:
+Sistema Bancário em Python
+Descrição
 
-    ✅ Depósito com validação de valor
+Este projeto implementa um sistema bancário simples em Python, com as operações essenciais: depósito, saque e extrato. O objetivo é simular as funcionalidades básicas de um banco, permitindo a prática de lógica de programação e manipulação de dados. O sistema também considera regras como limite diário de saques e registro detalhado das operações para extrato.
+Funcionalidades
 
-    ✅ Saque com:
+    Depósito de valores positivos
 
-        Limite de valor por saque
+    Saque com limite por operação e limite diário de saques
 
-        Máximo de 3 saques por dia
+    Exibição do extrato com todas as transações realizadas
 
-        Validação de saldo
-
-    ✅ Extrato com registro de todas as operações
-
-    ✅ Interface simples via terminal
+    Controle de saldo atualizado a cada operação
