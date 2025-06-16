@@ -16,7 +16,7 @@ Nesta etapa do projeto, o código original do sistema bancário foi refatorado c
 
 ✅ O que foi melhorado:
 
-#### Modularização do código Cada funcionalidade principal foi isolada em uma função:
+- #### Modularização do código Cada funcionalidade principal foi isolada em uma função:
 
 - realizar_deposito() 
 - realizar_saque() 
@@ -24,12 +24,12 @@ Nesta etapa do projeto, o código original do sistema bancário foi refatorado c
 
 Isso permite que o código seja mais organizado, reutilizável e fácil de testar individualmente.
 
-#### Separação de responsabilidades 
+- #### Separação de responsabilidades 
 
 O código agora segue uma lógica mais clara, onde cada função tem uma única responsabilidade. Isso reduz a complexidade do main() e facilita futuras alterações.
 
-#### Facilidade de manutenção e evolução Com as funções isoladas, a inclusão de novas regras (como taxas bancárias, autenticação, limites diferenciados etc.) se torna mais simples e segura, evitando efeitos colaterais em outras partes do sistema.
+- #### Facilidade de manutenção e evolução Com as funções isoladas, a inclusão de novas regras (como taxas bancárias, autenticação, limites diferenciados etc.) se torna mais simples e segura, evitando efeitos colaterais em outras partes do sistema.
 
-#### Leitura e entendimento simplificados 
+- #### Leitura e entendimento simplificados 
 
 A estrutura refatorada melhora significativamente a compreensão do código, tanto para o próprio autor quanto para outros desenvolvedores que venham a colaborar ou revisar o projeto.
